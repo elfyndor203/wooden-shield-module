@@ -1,0 +1,6 @@
+if SHIELD_WOODEN
+
+config ZMK-wooden
+    default "Wooden"
+
+endif
