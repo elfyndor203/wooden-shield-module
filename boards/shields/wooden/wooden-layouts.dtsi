@@ -4,7 +4,7 @@
     wooden_physical_layout_0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
-//        kscan = <&kscan0>;
+//      kscan = <&kscan0>;
         transform = <&wooden_default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
