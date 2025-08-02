@@ -5,8 +5,9 @@
 # pass flags to the build command, `snippet` to add a Zephyr snippet, and
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
-board: [ "nice_nano_v2" ]
-shield: [ "wooden" ]
+include:
+  - board: nice_nano_v2
+  - shield: wooden
 
 
 ---
