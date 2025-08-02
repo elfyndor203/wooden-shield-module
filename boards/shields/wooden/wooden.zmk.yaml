@@ -1,0 +1,15 @@
+file_format: "1"
+id: wooden
+name: Wooden
+type: shield
+url: https://github.com/elfyndor203/wooden_keyboard.git
+requires: 
+  - pro_micro
+exposes: 
+  - ble
+  - battery
+  - gpio
+  - usb
+features: 
+  - keys
+  - encoder

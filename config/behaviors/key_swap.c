@@ -175,4 +175,4 @@ int main(void) {
 // hold keylk, 1 old key and 2 new keys: replace 
 
 //if you want to set a new pair in any way: hold + 2 keys
-//if you want to replace the current slot: 
+//if you want to replace the current slot:  
