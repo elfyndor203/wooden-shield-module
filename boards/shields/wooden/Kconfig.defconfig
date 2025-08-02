@@ -1,6 +1,6 @@
 if SHIELD_WOODEN
 
 config ZMK_KEYBOARD_NAME
-    default "Wooden"
+default "Wooden"
 
 endif
