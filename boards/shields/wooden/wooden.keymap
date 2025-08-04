@@ -21,9 +21,9 @@
 //ADD KEYLK!!
         };
 
-        function_layer {
-            bindings = <
-            >;
-        };
+        // function_layer {
+        //     bindings = <
+        //     >;
+        // };
     }
 }
