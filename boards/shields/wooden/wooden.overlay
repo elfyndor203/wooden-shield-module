@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <wooden-layouts.dtsi>
+#include "wooden-layouts.dtsi"
 
 / {
     chosen {
