@@ -6,7 +6,7 @@
         zmk,physical-layout = &wooden_physical_layout_0;
         zmk,kscan = &wooden_kscan;
         zmk,matrix-transform = &wooden_default_transform;
-    }
+    };
 
     //wooden_kscan = label of kscan0
     wooden_kscan: kscan0 {
