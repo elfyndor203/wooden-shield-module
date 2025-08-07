@@ -15,30 +15,54 @@
         wakeup-source;
 
         col-gpios
-            = <&pro_micro   17  GPIO_ACTIVE_HIGH> //col 1 arduino label
-            , <&pro_micro   16  GPIO_ACTIVE_HIGH> //col 2
+            = <&pro_micro   18  GPIO_ACTIVE_HIGH> //col 1 arduino label
+            , <&pro_micro   15  GPIO_ACTIVE_HIGH> //col 2
             , <&gpio1       1   GPIO_ACTIVE_HIGH> //col 3
-            , <&pro_micro   6   GPIO_ACTIVE_HIGH> //col 4
-            , <&gpio1       2   GPIO_ACTIVE_HIGH> //col 5
+            , <&pro_micro   3   GPIO_ACTIVE_HIGH> //col 4
+            , <&gpio1       0   GPIO_ACTIVE_HIGH> //col 5
             , <&pro_micro   1   GPIO_ACTIVE_HIGH> //col 6
-            , <&pro_micro   5   GPIO_ACTIVE_HIGH> //col 7
+            , <&pro_micro   2   GPIO_ACTIVE_HIGH> //col 7
             , <&gpio1       7   GPIO_ACTIVE_HIGH> //col 8
             ;
 
+            // = <&gpio   17  GPIO_ACTIVE_HIGH> //col 1 arduino label
+            // , <&gpio   16  GPIO_ACTIVE_HIGH> //col 2
+            // , <&gpio1       1   GPIO_ACTIVE_HIGH> //col 3
+            // , <&gpio   6   GPIO_ACTIVE_HIGH> //col 4
+            // , <&gpio1       2   GPIO_ACTIVE_HIGH> //col 5
+            // , <&gpio   1   GPIO_ACTIVE_HIGH> //col 6
+            // , <&gpio   5   GPIO_ACTIVE_HIGH> //col 7
+            // , <&gpio1       7   GPIO_ACTIVE_HIGH> //col 8
+            // ;
+            
         row-gpios
-            = <&pro_micro 13    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 1
-            , <&pro_micro 14    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 2
-            , <&pro_micro 15    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 3
-            , <&pro_micro 10    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 4
-            , <&pro_micro 11    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 5
-            , <&pro_micro 12    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 6
-            , <&pro_micro 18    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 7
-            , <&pro_micro 19    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 8
-            , <&pro_micro 20    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 9
-            , <&pro_micro 9     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 10
-            , <&pro_micro 8     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 11
-            , <&pro_micro 7     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 12
+            = <&pro_micro 10    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 1
+            , <&pro_micro 16    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 2
+            , <&pro_micro 14    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 3
+            , <&pro_micro 7    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 4
+            , <&pro_micro 8    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 5
+            , <&pro_micro 9    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 6
+            , <&pro_micro 19    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 7
+            , <&pro_micro 20    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 8
+            , <&pro_micro 21    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 9
+            , <&pro_micro 6     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 10
+            , <&pro_micro 5     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 11
+            , <&pro_micro 4     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 12
             ;
+            // row-gpios
+            //     = <&gpio 13    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 1
+            //     , <&gpio 14    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 2
+            //     , <&gpio 15    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 3
+            //     , <&gpio 10    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 4
+            //     , <&gpio 11    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 5
+            //     , <&gpio 12    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 6
+            //     , <&gpio 18    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 7
+            //     , <&gpio 19    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 8
+            //     , <&gpio 20    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 9
+            //     , <&gpio 9     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 10
+            //     , <&gpio 8     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 11
+            //     , <&gpio 7     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 12
+            // ;
     };
 
     wooden_default_transform: keymap_transform0 {
