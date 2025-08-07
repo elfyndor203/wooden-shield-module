@@ -13,6 +13,7 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
+        #gpio-cells = <2>;
 
         col-gpios
             = <&pro_micro   17  GPIO_ACTIVE_HIGH> //col 1 arduino label
@@ -29,9 +30,9 @@
             = <&pro_micro 13    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 1
             , <&pro_micro 14    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 2
             , <&pro_micro 15    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 3
-            , <&pro_micro 10     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 4
+            , <&pro_micro 10    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 4
             , <&pro_micro 11    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 5
-            , <&pro_micro 12     (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 6
+            , <&pro_micro 12    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 6
             , <&pro_micro 18    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 7
             , <&pro_micro 19    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 8
             , <&pro_micro 20    (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> //row 9
