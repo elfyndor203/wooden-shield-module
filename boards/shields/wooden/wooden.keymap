@@ -3,7 +3,7 @@
 
 #define DEFAULT 0
 #define FUNCTION 1
-#define VOLUME_TIMEOUT 200
+#define VOLUME_TIMEOUT 500
 
 / {
     keymap {
@@ -32,7 +32,7 @@
         compatible = "zmk,combos";
 
         combo_volume_up {
-            timeout-ms = <VOLUME_TIMEOUT>;          
+            timeout-ms = <500>;          
             key-positions = <18 17>;
             bindings = <&kp C_VOL_UP >;
         };
