@@ -33,13 +33,13 @@
 
         combo_volume_up {
             timeout-ms = <500>;          
-            key-positions = <18 17>;
+            key-positions = <17 16>;
             bindings = <&kp C_VOL_UP >;
         };
 
         combo_volume_down {
             timeout-ms = <VOLUME_TIMEOUT>;          
-            key-positions = <17 18>;
+            key-positions = <16 17>;
             bindings = <&kp C_VOL_DN >;
         };
     };
