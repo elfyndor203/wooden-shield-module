@@ -42,4 +42,5 @@
             key-positions = <17 18>;
             bindings = <&kp C_VOL_DN >;
         };
+    };
 };
